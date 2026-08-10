@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="JSdigitaldreamworks.ca is a premium Canadian digital asset owned by JS DreamWorks and currently available for acquisition.">
+<title>JSdigitaldreamworks.ca | Available for Acquisition</title>
+<style>
+:root{
+  --bg:#f8fafc;
+  --panel:#ffffff;
+  --ink:#0b2545;
+  --muted:#56667a;
+  --navy:#0b2545;
+  --navy-soft:#eaf0f6;
+  --gold:#b39255;
+  --gold-dark:#8d6f38;
+  --gold-soft:#f5efe3;
+  --line:#dce4ec;
+  --shadow:0 30px 80px rgba(11,37,69,.12)
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink)}
+a{text-decoration:none;color:inherit}
+.page{height:100vh;min-height:720px;position:relative;overflow:hidden}
+.page:before,.page:after{width:460px;height:460px;background:rgba(11,37,69,.055);left:-190px;bottom:-200px}
+.page:before{width:560px;height:560px;background:rgba(179,146,85,.11);top:-220px;right:-160px}
+.page:after{width:420px;height:420px;background:rgba(220,204,179,.25);left:-180px;bottom:-190px}
+.container{width:min(1500px,calc(100% - 80px));height:100%;margin:auto}
+.nav{height:90px;display:flex;justify-content:space-between;align-items:center;padding:0;gap:20px}
+.brand{display:flex;align-items:center;gap:14px;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--navy)}
+.brand-mark{width:34px;height:34px;border:1px solid rgba(118,91,54,.35);border-radius:50%;display:grid;place-items:center;font-family:Georgia,serif;background:rgba(255,255,255,.65)}
+.brand-logo{width:52px;height:62px;display:block;object-fit:contain}.nav-link{font-size:13px;font-weight:800;padding:11px 17px;border:1px solid rgba(11,37,69,.16);border-radius:999px;background:rgba(255,255,255,.78);color:var(--navy)}
+.hero{height:calc(100vh - 90px);min-height:630px;display:grid;grid-template-columns:1.08fr .92fr;align-items:center;gap:90px;padding:20px 0 44px}
+.hero>section:first-child{width:100%;max-width:860px}.hero>section:last-child{width:100%}.eyebrow{display:inline-flex;align-items:center;gap:10px;color:var(--navy);font-size:11px;font-weight:900;letter-spacing:.16em;text-transform:uppercase;margin-bottom:22px}
+
+h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(48px,7vw,88px);line-height:.98;letter-spacing:-.045em;font-weight:500;margin-bottom:26px}
+h1 .accent{display:block;color:var(--navy)}
+.lead{max-width:670px;color:var(--muted);font-size:18px;line-height:1.75;margin-bottom:34px}
+.lead strong{color:var(--ink)}
+.cta-row{display:flex;flex-wrap:wrap;gap:13px;margin-bottom:30px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 23px;border-radius:999px;font-size:14px;font-weight:850;transition:.2s}
+.btn-primary{color:#fff;background:linear-gradient(135deg,var(--navy),#173e6c);box-shadow:0 14px 30px rgba(11,37,69,.22)}
+.btn-secondary{color:var(--navy);border:1px solid rgba(179,146,85,.42);background:rgba(255,255,255,.78)}
+.btn:hover{transform:translateY(-2px)}
+.trust{display:flex;flex-wrap:wrap;gap:12px 18px;color:#657386;font-size:12px;font-weight:700}
+.trust span{display:flex;align-items:center;gap:7px}
+.trust span:before{content:"";width:6px;height:6px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 4px rgba(154,123,79,.10)}
+.asset-card{width:100%;max-width:none;border:1px solid rgba(179,146,85,.28);border-radius:28px;background:rgba(255,255,255,.92);box-shadow:var(--shadow);padding:34px;backdrop-filter:blur(18px)}
+.card-top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:34px}
+.status{display:flex;align-items:center;gap:8px;font-size:11px;font-weight:900;letter-spacing:.12em;text-transform:uppercase;color:var(--navy)}
+.status:before{content:"";width:8px;height:8px;border-radius:50%;background:#76a679;box-shadow:0 0 0 5px rgba(118,166,121,.12)}
+.tag{font-size:11px;font-weight:800;color:#657386;padding:8px 11px;background:#fff;border:1px solid var(--line);border-radius:999px}
+.domain{font-family:Georgia,serif;font-size:clamp(29px,4vw,48px);line-height:1.1;letter-spacing:-.03em;overflow-wrap:anywhere;margin-bottom:14px}
+.domain-copy{color:var(--muted);line-height:1.65;font-size:14px;margin-bottom:28px}
+.asset-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-bottom:24px}
+.asset-item{border:1px solid var(--line);border-radius:16px;padding:16px;background:#fff}
+.asset-item small{display:block;font-size:10px;font-weight:900;letter-spacing:.12em;text-transform:uppercase;color:#78879a;margin-bottom:7px}
+.asset-item strong{font-size:14px;line-height:1.35}
+.note{padding:16px 17px;border-radius:16px;background:var(--gold-soft);border-left:3px solid var(--gold);color:var(--navy);line-height:1.6;font-size:13px}
+@media(max-width:1100px){
+  .container{width:min(100% - 48px,1100px)}
+  .hero{gap:48px}
+  h1{font-size:clamp(48px,6vw,72px)}
+}
+@media(max-width:900px){
+  .page{height:auto;min-height:100vh;overflow:visible}
+  .container{width:min(100% - 40px,760px);height:auto}
+  .nav{height:auto;padding:22px 0}
+  .hero{height:auto;min-height:auto;grid-template-columns:1fr;gap:42px;padding:38px 0 60px}
+  .hero>section:first-child{max-width:none}
+}
+@media(max-width:620px){
+  body{background:#fff}
+  .container{width:min(100% - 28px,1180px)}
+  .nav{padding:16px 0}
+  .brand{font-size:10px;gap:9px}
+  .brand-logo{width:42px;height:48px}
+  .nav-link{font-size:11px;padding:9px 12px}
+  .hero{padding:26px 0 42px;gap:32px}
+  h1{font-size:46px}
+  .lead{font-size:16px;line-height:1.65}
+  .btn{width:100%}
+  .asset-card{padding:22px;border-radius:22px}
+  .asset-grid{grid-template-columns:1fr}
+  .card-top{align-items:flex-start;flex-direction:column;margin-bottom:26px}
+}
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="container">
+    <nav class="nav">
+      <a class="brand" href="https://www.jsdreamworks.com" target="_blank" rel="noopener">
+        <img src="https://static.wixstatic.com/shapes/eec9dc_8ad207698d554788b89bd4e1a421681a.svg" alt="JS DreamWorks" style="width:50px;height:60px;">
+        <span>Owned by JS DreamWorks</span>
+      </a>
+      <a class="nav-link" href="mailto:admin@jsdreamworks.com?subject=Acquisition%20Inquiry%20-%20JSdigitaldreamworks.ca">Acquisition Inquiry</a>
+    </nav>
+
+    <main class="hero">
+      <section>
+        <div class="eyebrow">Premium Canadian Digital Asset</div>
+        <h1>A distinctive digital brand.<span class="accent">Now available.</span></h1>
+        <p class="lead">
+          <strong>JSdigitaldreamworks.ca</strong> is a premium digital asset owned by
+          <strong>JS DreamWorks</strong> and currently available for acquisition.
+          A strong fit for a digital agency, creative studio, technology company,
+          marketing firm, or digital-first business seeking a memorable Canadian brand presence.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="mailto:admin@jsdreamworks.com?subject=Acquisition%20Inquiry%20-%20JSdigitaldreamworks.ca">Inquire About Acquisition</a>
+          <a class="btn btn-secondary" href="https://www.jsdreamworks.com" target="_blank" rel="noopener">Visit JS DreamWorks</a>
+        </div>
+        <div class="trust">
+          <span>Direct owner sale</span>
+          <span>Canadian .ca domain</span>
+          <span>Digital & creative positioning</span>
+        </div>
+      </section>
+
+      <section>
+        <div class="asset-card">
+          <div class="card-top">
+            <div class="status">Available for Acquisition</div>
+            <div class="tag">Digital Asset</div>
+          </div>
+          <div class="domain">JSdigitaldreamworks.ca</div>
+          <p class="domain-copy">
+            A brandable Canadian domain with strong relevance for digital,
+            creative, web, marketing, technology, and online service businesses.
+          </p>
+          <div class="asset-grid">
+            <div class="asset-item"><small>Ownership</small><strong>JS DreamWorks</strong></div>
+            <div class="asset-item"><small>Domain</small><strong>.ca Canada</strong></div>
+            <div class="asset-item"><small>Ideal For</small><strong>Digital & Creative Brands</strong></div>
+            <div class="asset-item"><small>Status</small><strong>Open to Offers</strong></div>
+          </div>
+          <div class="note">
+            Serious acquisition inquiries are welcome. Contact JS DreamWorks directly
+            to discuss availability, transfer details, and terms.
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</div>
+</body>
+</html>
